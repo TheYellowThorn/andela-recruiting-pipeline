@@ -43,7 +43,7 @@ This library provides several chart component options that are used in the appli
 
 Provides a Datepicker component for quick date selection prototyping
 
-#### AI Use
+### AI Usage
 
 AI was used in the development of mock data.  I supplied ChatGPT to with the schema in which I needed the data and gave it various prompts to expedite the process of mock data creation.
 
