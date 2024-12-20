@@ -6,7 +6,7 @@ To run and view the application, take the following steps:
 
 **1. Open a new command prompt**\
 **2. cd {project_directory}**\
-**3. npm install**\
+**3. npm install**
 
 ### `Run the Local Server`
 
