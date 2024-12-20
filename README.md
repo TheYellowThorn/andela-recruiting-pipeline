@@ -2,11 +2,15 @@
 
 To run the application, take the following steps:
 
+### `Open a new command prompt`
+### `cd {project_directory}`
 ### `npm run serve:local`
 
 Runs the app mock database api calls\
 Open [http://localhost:8000](http://localhost:3000) to view it in the browser.
 
+### `Open a new command prompt`
+### `cd {project_directory}`
 ### `npm run start`
 
 Runs the app in the development mode.\
@@ -31,7 +35,7 @@ This library provides several chart component options that are used in the appli
 
 #### react-datepicker
 
-Provides a datepicker component for quick date selection prototyping
+Provides a Datepicker component for quick date selection prototyping
 
 
 
