@@ -25,7 +25,7 @@ You will also see any lint errors in the console.
 
 ### Description
 
-This application is built using the React framework.  The reasoning behind the use of the React framework is that it provides quick front end prototyping and has a large community providing third-party libraries.
+This application is built using the React framework.  The reasoning behind the use of the React framework is that it provides quick front end prototyping and has a large community providing third-party libraries.  Additionally, it is my understanding many of the applications within Andela are built using React, and I thought this framework would be the most applicable to the company's current development habits.
 
 ### Libraries Used
 
