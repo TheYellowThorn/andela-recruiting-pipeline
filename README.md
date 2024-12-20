@@ -1,6 +1,12 @@
 ## Q1 Prototyping
 
-To run the application, take the following steps:
+To run and view the application, take the following steps:
+
+### `Install dependencies`
+
+**1. Open a new command prompt**\
+**2. cd {project_directory}**\
+**3. npm install**\
 
 ### `Run the Local Server`
 
