@@ -20,6 +20,8 @@ Open [http://localhost:8000](http://localhost:3000) to view it in the browser.
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
+**Once in the application, click on the Analytics icon or link to view the recruiting pipeline prototype.**
+
 The page will reload if you make edits.\
 You will also see any lint errors in the console.
 
