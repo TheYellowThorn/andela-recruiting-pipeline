@@ -2,7 +2,7 @@
 
 To run and view the application, take the following steps:
 
-### `Install dependencies`
+### `Install Dependencies`
 
 **1. Open a new command prompt**\
 **2. cd {project_directory}**\
