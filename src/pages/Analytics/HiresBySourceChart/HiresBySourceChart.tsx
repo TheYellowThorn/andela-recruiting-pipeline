@@ -2,6 +2,7 @@ import React from 'react';
 import { Bar } from 'react-chartjs-2';
 import ChartDataLabels from 'chartjs-plugin-datalabels';
 import { ChartData, BarElement, Chart} from 'chart.js';
+import { AnyObject } from 'chart.js/dist/types/basic';
 
 const HiresBySourceChart = (props: { data: { labels: string[], counts: number[]} }) => {
 
@@ -22,7 +23,7 @@ const HiresBySourceChart = (props: { data: { labels: string[], counts: number[]}
     ]
   }
 
-  const hiresBySourceChartChartOptions = {
+  const hiresBySourceChartChartOptions: AnyObject = {
     plugins: {
       datalabels: {
         formatter: (value: any, context: any) => {

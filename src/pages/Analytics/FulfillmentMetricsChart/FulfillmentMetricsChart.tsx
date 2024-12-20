@@ -2,6 +2,7 @@ import React from 'react';
 import { Bar } from 'react-chartjs-2';
 import ChartDataLabels from 'chartjs-plugin-datalabels';
 import { ChartData, BarElement, Chart} from 'chart.js';
+import { AnyObject } from 'chart.js/dist/types/basic';
 
 const FulfillmentMetricsChart = (props: { data: any }) => {
 
@@ -24,7 +25,7 @@ const FulfillmentMetricsChart = (props: { data: any }) => {
     ]
   }
 
-  const fulfillmentChartOptions = {
+  const fulfillmentChartOptions: AnyObject = {
     plugins: {
       datalabels: {
         formatter: (value: any, context: any) => {

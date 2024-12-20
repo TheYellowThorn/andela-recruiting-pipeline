@@ -25,15 +25,10 @@ const Analytics = () => {
 
   const [totalFilteredApplicants, setTotalFilteredApplicants] = useState<number>(0);
   const [filteredApplicants, setFilteredApplicants] = useState<IApplicantData[] | null>(null);
-  const [filteredPrescreenedApplicants, setFilteredPrescreenedApplicants ]= useState<IApplicantData[] | null>(null);
   const [totalFilteredPrescreenedApplicants, setTotalFilteredPrescreenedApplicants ]= useState<number>(0);
-  const [filteredInterviewedApplicants, setFilteredInterviewedApplicants ]= useState<IApplicantData[] | null>(null);
   const [totalFilteredInterviewedApplicants, setTotalFilteredInterviewedApplicants ]= useState<number>(0);
-  const [filteredOfferedApplicants, setFilteredOfferedApplicants ]= useState<IApplicantData[] | null>(null);
   const [totalFilteredOfferedApplicants, setTotalFilteredOfferedApplicants ]= useState<number>(0);
-  const [filteredHiredApplicants, setFilteredHiredApplicants ]= useState<IApplicantData[] | null>(null);
   const [totalFilteredHiredApplicants, setTotalFilteredHiredApplicants ]= useState<number>(0);
-  const [filteredRejectedApplicants, setFilteredRejectedApplicants ]= useState<IApplicantData[] | null>(null);
   const [totalFilteredRejectedApplicants, setTotalFilteredRejectedApplicants ]= useState<number>(0);
 
   const [uniqueRecruitmentSources, setUniqueRecruitmentSources] = useState<string[]>([]);
@@ -92,23 +87,18 @@ const Analytics = () => {
     if (!filteredApplicants) { return }
 
     const prescreenedApplicants: IApplicantData[] = ApplicantUtils.getPrescreenedApplicants(filteredApplicants);
-    // setFilteredPrescreenedApplicants(prescreenedApplicants);
     setTotalFilteredPrescreenedApplicants(prescreenedApplicants.length);
 
     const interviewedApplicants: IApplicantData[] = ApplicantUtils.getInterviewedApplicants(filteredApplicants);
-    // setFilteredInterviewedApplicants(interviewedApplicants);
     setTotalFilteredInterviewedApplicants(interviewedApplicants.length);
 
     const offeredApplicants: IApplicantData[] = ApplicantUtils.getOfferedApplicants(filteredApplicants);
-    // setFilteredOfferedApplicants(offeredApplicants);
     setTotalFilteredOfferedApplicants(offeredApplicants.length);
 
     const hiredApplicants: IApplicantData[] = ApplicantUtils.getHiredApplicants(filteredApplicants);
-    // setFilteredHiredApplicants(hiredApplicants);
     setTotalFilteredHiredApplicants(hiredApplicants.length);
 
     const rejectedApplicants: IApplicantData[] = ApplicantUtils.getRejectedApplicants(filteredApplicants);
-    // setFilteredRejectedApplicants(rejectedApplicants);
     setTotalFilteredRejectedApplicants(rejectedApplicants.length);
 
     setTotalFilteredApplicants(filteredApplicants.length);

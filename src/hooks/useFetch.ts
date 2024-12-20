@@ -22,6 +22,7 @@ const useFetch = <T>(url: string) => {
         
         setIsPending(true);
         
+        // Timeout used for local testing visualization only
         const timeoutId = setTimeout(() => {
             fetch(url, { signal: abortController.signal })
                 .then((res) => {
@@ -39,7 +40,6 @@ const useFetch = <T>(url: string) => {
                     if (err.name === "AbortError") {
                         return;
                     }
-                    console.log(err.message);
                     setError(err.message);
                     setIsPending(false);
                 });

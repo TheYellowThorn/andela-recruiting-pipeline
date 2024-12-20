@@ -52,7 +52,7 @@ export default class ApplicantUtils {
         
         for (let i: number = 0; i < strDates.length; i++) {
 
-            const date = new Date(strDates[i]);  // 2009-11-10
+            const date = new Date(strDates[i]);
             const month = date.toLocaleString('default', { month: 'long' });
 
             monthlyData.count++;
@@ -118,7 +118,6 @@ export default class ApplicantUtils {
     }
 
     public static filterApplicants(applicants: IApplicantData[], filterOptions: IApplicantFilterOptions | null): IApplicantData[] {
-        console.log('filtering on', filterOptions);
 
         let filteredApplicants: IApplicantData[] = applicants.concat();
         if (!filterOptions) {
