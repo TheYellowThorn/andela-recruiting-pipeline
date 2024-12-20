@@ -24,10 +24,11 @@ h3 {
 a {
   color: $link-color;
   text-decoration: none;
+  font-weight: bold;
 
   &:hover {
     color: $link-hover-color;
-    text-decoration: underline;
+    text-decoration: none;
   }
 }
 
