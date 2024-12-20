@@ -4,18 +4,18 @@ To run the application, take the following steps:
 
 ### `Run the Local Server`
 
-**1. Open a new command prompt**
-**2. cd {project_directory}**
-**3. npm run serve:local**
+**1. Open a new command prompt**\
+**2. cd {project_directory}**\
+**3. npm run serve:local**\
 
 Runs the app mock database api calls\
 Open [http://localhost:8000](http://localhost:3000) to view it in the browser.
 
 ### `Run and Open the App`
 
-**1. Open a new command prompt**
-**2. cd {project_directory}**
-**3. npm run start**
+**1. Open a new command prompt**\
+**2. cd {project_directory}**\
+**3. npm run start**\
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
